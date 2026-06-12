@@ -1,0 +1,15 @@
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+
+# Python helper artifacts (image extraction scripts were temporary)
+__pycache__/
+*.pyc
+extract*.py
+render*.py
+
+# Source PDFs (kept off the repo — images already extracted into /images)
+*.pdf
+*.docx
