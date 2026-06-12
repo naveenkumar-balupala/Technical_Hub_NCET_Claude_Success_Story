@@ -127,6 +127,30 @@
     .lab-card .lab-body h5 { margin:0; font-weight:600; }
     .lab-card .lab-body span { color:var(--accent); font-weight:600; font-size:.8rem; letter-spacing:1px; text-transform:uppercase; }
 
+    /* architect team grid */
+    .arch-card {
+      background:#fff; border:1px solid #eaf1ea; border-radius:18px; padding:1.6rem 1rem;
+      text-align:center; height:100%; position:relative; transition:transform .3s ease, box-shadow .3s ease;
+    }
+    .arch-card:hover { transform:translateY(-6px); box-shadow:0 18px 40px rgba(31,138,59,.16); }
+    .arch-avatar {
+      width:74px; height:74px; border-radius:50%; margin:0 auto 1rem; display:grid; place-items:center;
+      font-size:1.9rem; color:#fff; background:linear-gradient(135deg,var(--th-green),var(--ncet-green));
+      position:relative;
+    }
+    .arch-card:nth-child(even) .arch-avatar { background:linear-gradient(135deg,#f7a23b,var(--accent)); }
+    .arch-avatar .verified {
+      position:absolute; bottom:-2px; right:-2px; width:26px; height:26px; border-radius:50%;
+      background:#fff; color:var(--th-green); display:grid; place-items:center; font-size:.95rem;
+      box-shadow:0 2px 8px rgba(0,0,0,.2);
+    }
+    .arch-card h6 { margin:0 0 .15rem; font-weight:600; }
+    .arch-role { color:var(--accent); font-size:.72rem; font-weight:700; letter-spacing:1px; text-transform:uppercase; }
+    .arch-badge {
+      display:inline-flex; align-items:center; gap:.4rem; background:var(--soft); color:var(--ncet-green);
+      border:1px solid #d9ead9; font-size:.72rem; font-weight:600; padding:.3rem .8rem; border-radius:50px; margin-top:.7rem;
+    }
+
     /* timeline */
     .timeline { position:relative; }
     .timeline::before { content:''; position:absolute; left:28px; top:0; bottom:0; width:3px; background:linear-gradient(var(--th-green),var(--accent)); }
@@ -166,6 +190,7 @@
           <li class="nav-item"><a class="nav-link" href="#labs">Labs</a></li>
           <li class="nav-item"><a class="nav-link" href="#curriculum">Curriculum</a></li>
           <li class="nav-item"><a class="nav-link" href="#architects">Architects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
           <li class="nav-item"><a class="nav-link" href="#impact">Impact</a></li>
           <li class="nav-item ms-lg-3"><a class="btn btn-th" href="#contact">Get in Touch</a></li>
         </ul>
@@ -202,7 +227,7 @@
       <div class="row text-center g-4">
         <div class="col-6 col-md-3" data-aos="zoom-in"><div class="stat-num"><span data-count="4">0</span></div><div class="stat-label">Dedicated AI Enrichment Labs</div></div>
         <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100"><div class="stat-num"><span data-count="100">0</span>%</div><div class="stat-label">AI-Aligned Curriculum Vision</div></div>
-        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200"><div class="stat-num"><span data-count="24">0</span>/7</div><div class="stat-label">On-Campus Architect Advisory</div></div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200"><div class="stat-num"><span data-count="10">0</span></div><div class="stat-label">Claude-Certified Architects</div></div>
         <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300"><div class="stat-num">A+</div><div class="stat-label">NAAC Accredited Institution</div></div>
       </div>
     </div>
@@ -434,6 +459,50 @@
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="240"><div class="feature-card text-center"><div class="feature-ic mx-auto"><i class="bi bi-cloud-check"></i></div><h5>Architecture Alignment</h5><p class="lead-muted mb-0">Ensuring innovations align with modern cloud and AI architectural patterns.</p></div></div>
       </div>
       <p class="text-center lead-muted mt-5 mx-auto" style="max-width:760px;" data-aos="fade-up">By co-locating these experts on campus, the partnership has <strong>eliminated the traditional learning curve</strong> and guaranteed a flawless, friction-free transition into a truly AI-skilled institution.</p>
+    </div>
+  </section>
+
+  <!-- ===== MEET THE 10 ARCHITECTS ===== -->
+  <section id="team">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="eyebrow orange">The Squad</span>
+        <h2 class="section-title mt-2">Meet the 10 Claude-Certified Architects</h2>
+        <p class="lead-muted mx-auto" style="max-width:720px;">A ten-strong team of certified experts deployed across NCET — each owning a specialized domain to deliver real-time, production-level advisory to students and faculty.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-diagram-3"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 01</h6><div class="arch-role">LLM Solutions</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="60">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-terminal"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 02</h6><div class="arch-role">Prompt Engineering</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-cloud-arrow-up"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 03</h6><div class="arch-role">Cloud &amp; MLOps</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-chat-dots"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 04</h6><div class="arch-role">Conversational AI</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-database-gear"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 05</h6><div class="arch-role">RAG &amp; Data Systems</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-robot"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 06</h6><div class="arch-role">Agentic Workflows</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="60">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-mortarboard"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 07</h6><div class="arch-role">AI Curriculum Design</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-eye"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 08</h6><div class="arch-role">Computer Vision</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-shield-lock"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 09</h6><div class="arch-role">AI Security &amp; Governance</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="arch-card"><div class="arch-avatar"><i class="bi bi-person-hearts"></i><span class="verified"><i class="bi bi-patch-check-fill"></i></span></div><h6>Architect 10</h6><div class="arch-role">Student Mentorship</div><span class="arch-badge"><i class="bi bi-patch-check"></i> Claude Certified</span></div>
+        </div>
+      </div>
+      <p class="text-center small text-secondary mt-4 mb-0" data-aos="fade-up"><i class="bi bi-info-circle me-1"></i>Ten certified architects, one shared goal — a friction-free transition into a truly AI-skilled institution.</p>
     </div>
   </section>
 
