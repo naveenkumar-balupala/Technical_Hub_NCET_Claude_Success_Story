@@ -2,8 +2,9 @@
 
 A single-page website showcasing how **Technical Hub** is building a future-ready, AI-skilled
 institution at **Nagarjuna College of Engineering and Technology (NCET)** through campus-wide
-AI awareness, dedicated AI Skill Enrichment Labs, Claude-aligned curriculum integration, and
-the deployment of Claude-certified architects.
+AI awareness, dedicated AI Skill Forges, Claude-aligned curriculum integration, hands-on build
+programs (Project Week & ProjectStreet), a Faculty Development Program, and the deployment of
+Claude-certified architects.
 
 ## Tech stack
 
@@ -27,5 +28,7 @@ index.html
 
 ## Sections
 
-Overview · AI Culture (awareness campaigns) · AI Skill Enrichment Labs · Curriculum Integration ·
-Claude in Daily Use · Claude-Certified Architects · Transformation Timeline · Measurable Impact
+Overview · Claude AI Awareness Program @ NTSquare (3-day) · AI Skill Forges · Curriculum Integration ·
+Project Week · ProjectStreet · NTSquare · Claude in Daily Use · Claude Training & Certification ·
+Faculty Development Program · Claude-Certified Architects · Transformation Timeline ·
+Measurable Impact · FAQ
