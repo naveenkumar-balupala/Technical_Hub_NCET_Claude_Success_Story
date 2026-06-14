@@ -29,6 +29,6 @@ index.html
 ## Sections
 
 Overview · Claude AI Awareness Program @ NTSquare (3-day) · AI Skill Forges · Curriculum Integration ·
-Project Week · ProjectStreet · NTSquare · Claude in Daily Use · Claude Training & Certification ·
-Faculty Development Program · Claude-Certified Architects · Transformation Timeline ·
-Measurable Impact · FAQ
+Project Week · ProjectStreet · AI Tech Coach Launch (image carousel) · NTSquare · Claude in Daily Use ·
+Claude Training & Certification · Faculty Development Program · Claude-Certified Architects ·
+Transformation Timeline · Measurable Impact · FAQ
